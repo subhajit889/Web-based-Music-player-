@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of Player -->
+  <title>SB Music Player</title>
+  <!-- Favicon of web pages -->
+  <link rel="icon" type="image/x-icon" href="Asset\images\Logo & profile photo\MP3-Player-Music-Player-Logo-Rl1062.png">
+  <!-- using the google font fow web pages -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+  <!-- Links for extranal stylesheet -->
+  <link rel="Stylesheet" type="text/css" href="Asset\CSS files\style.css">
+  <!-- links for FontAwesome icon -->
+  <script src="https://kit.fontawesome.com/8cbe325036.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="bg-container">
+    <!-- Main header Start Here -->
+    <header class="page-header">
+      <div class="logo-title-part">
+        <img src="Asset\images\Logo & profile photo\MP3-Player-Music-Player-Logo-Rl1062.png"><!-- brand logo -->
+        <p class="titlepara">Home</p>
+      </div>
+      <div class="searchbox-Profile-part">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search" />
+          <i class="fas fa-microphone"></i>
+        </div>
+        <i class="fas bell fa-bell"></i>
+        <img class="profile-photo" src="Asset\images\Logo & profile photo\53274680_1802563019849867_5878901666547236864_n.jpg" />
+      </div>
+    </header>
+    <!-- Main header end Here -->
+
+
+    <div class="for-responsiveness">
+      <!-- main content Start here -->
+      <main>
+        <!-- corusel part start here -->
+        <div class="carousel-container">
+          <div class="img-container img1">
+            <img src="Asset\images\Cover\maxresdefault (1).jpg" />
+          </div>
+          <div class="img-container img2">
+            <img src="Asset\images\Cover\Best Of Shreya Ghoshal Hit Songs Lyrics.jpg" />
+          </div>
+          <div class="img-container img3">
+            <img src="Asset\images\Cover\maxresdefault.jpg" />
+          </div>
+        </div>
+        <!-- corusel part Ends here -->
+
+
+        <!-- Queue Section Start Here -->
+        <div id="queue-1" class="queue-container">
+          <div class="queue-header">
+            <p>Queue</p>
+            <div class="queue-btn-container">
+
+              <!--label is using as a button for dropdown effect -->
+              <label for="mycheckbox">Queue <span><i class="fas fa-angle-down"></i></span></label>
+              <input type="checkbox" id="mycheckbox">
+              <div class="queue-btn-dropdown">
+                <a href="index2.html">Playlists</a>
+                <hr>
+                <a href="#">Favourite Songs</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="queue-elements-container">
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">01</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\jabo-na-jabo-na-fire-lyrics.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Jabo Na Fire</p>
+                  <p class="queue-artist-name">Arijit Singh</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <i class="fas currently-on-song fa-stream"></i>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\tamasha-agar-tum-1517133191.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Agar Tum Saath Ho</p>
+                  <p class="queue-artist-name">Alka Yagnik</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">03</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\moh-moh-ke dhagge.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Moh Moh Ke Dhagge</p>
+                  <p class="queue-artist-name">Monali Thakur</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">04</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\khushi-jab-bhi-teri-jubin-nautiyal.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Kushi jab Bhi Teri</p>
+                  <p class="queue-artist-name">Jubin Nautial</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">05</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\ami-banglai gan gai.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Ami Banglai gan Gai</p>
+                  <p class="queue-artist-name">X Nandita</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">06</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\Jawl-Phoring-2-Lyrics-by-Anupam-Roy.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Jol-Phoring 2.0</p>
+                  <p class="queue-artist-name">Anupam Roy</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">07</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\kavi-yadomai.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Kabhi Yadon main</p>
+                  <p class="queue-artist-name">Palak Muccal</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <i class="fas currently-on-song fa-stream"></i>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\Hawaiyan.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Hawayein</p>
+                  <p class="queue-artist-name">Arijit Singh</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">09</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\dil-main-ho-tum.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Dil Main Ho Tum</p>
+                  <p class="queue-artist-name">Armaan Mallik</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">10</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\Dil-ko-karrar aya.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Dil Ko Karar Aya</p>
+                  <p class="queue-artist-name">Neha Kakkar</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">11</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="Asset\images\Songs\bulbuli.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Bulbuli</p>
+                  <p class="queue-artist-name">Cock Studio Bangla</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+            <div class="queue-element">
+              <div class="song-image-container">
+                <p class="queue-number">12</p>
+                <div class="image-container">
+                  <img class="queue-song-img" src="D:\WEB DEVOLOPMENT\Music Player Project\Asset\images\Songs\mast-najrose.jpg" />
+                  <i class="fas play-btn fa-play"></i>
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Mast Nazron Se</p>
+                  <p class="queue-artist-name">Jubin Nautial</p>
+                </div>
+              </div>
+
+              <i class="far wishlist-icon fa-heart"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Queue Section Ends Here -->
+
+
+        <!-- Popular Artist Section Start Here -->
+        <div class="popular-artists-container">
+          <div class="popular-artists-header">
+            <p>Popular Artists</p>
+          </div>
+          <div class="popular-artists-img-container">
+            <div class="popular-artists-1-container">
+              <div class="popular-artists-img1-container">
+                <div class="popular-artists">
+                  <a href="index2.html"><i class="fas popular-artists-play-btn fa-play"></i></a>
+                </div>
+              </div>
+
+              <p>Arijit Singh</p>
+            </div>
+            <div class="popular-artists-1-container">
+              <div class="popular-artists-img1-container">
+                <div class="popular-artists popular-artists-2">
+                  <a href="index2.html"><i class="fas popular-artists-play-btn fa-play"></i></a>
+                </div>
+              </div>
+
+              <p>Palak Muccal</p>
+            </div>
+            <div class="popular-artists-1-container">
+              <div class="popular-artists-img1-container">
+                <div class="popular-artists popular-artists-3">
+                  <a href="index2.html"><i class="fas popular-artists-play-btn fa-play"></i></a>
+                </div>
+              </div>
+
+              <p>Jubin Nautial</p>
+            </div>
+            <div class="popular-artists-1-container">
+              <div class="popular-artists-img1-container">
+                <div class="popular-artists popular-artists-4">
+                  <a href="index2.html"><i class="fas popular-artists-play-btn fa-play"></i></a>
+                </div>
+              </div>
+
+              <p>Darsan Raval</p>
+            </div>
+            <div class="popular-artists-1-container">
+              <div class="popular-artists-img1-container">
+                <div class="popular-artists popular-artists-5">
+                  <a href="index2.html"><i class="fas popular-artists-play-btn fa-play"></i></a>
+                </div>
+              </div>
+
+              <p>Monali Thakur</p>
+            </div>
+            <div class="popular-artists-1-container">
+              <div class="popular-artists-img1-container">
+                <div class="popular-artists popular-artists-6">
+                  <a href="index2.html"><i class="fas popular-artists-play-btn fa-play"></i></a>
+                </div>
+              </div>
+
+              <p>Arman Mallik</p>
+            </div>
+          </div>
+        </div>
+        <!-- Popular Artist Section End Here -->
+
+
+        <!-- Latest release start here -->
+        <div class="latest-release-container">
+          <div class="latest-release-header">
+            <p>Latest Release</p>
+          </div>
+          <div class="latest-release-cards-container">
+            <div class="latest-release-card">
+              <div class="song-name-and-img-container">
+                <div class="latest-release-img-container">
+                  <label for="play-btn-checkbox1"><i class="fas latest-release-play-btn fa-play play-1"></i><i
+                      class="latest-release-pause-btn fas fa-pause pause-1"></i></label>
+                </div>
+                <div>
+                  <p class="song-name">Jabo Na Fire </p>
+                  <p class="date">June 12, 2022</p>
+                </div>
+              </div>
+
+              <div class="latest-release-dropdown-container">
+                <label for="latest-release-checkbox1"><i class="fa-solid fa-arrow-down-wide-short"></i></label>
+                <input type="checkbox" id="latest-release-checkbox1">
+                <div class="latest-release-dropdown">
+
+                  <div class="links-container">
+                    <i class="fas fa-play"></i>
+                    <a href="">Play Now</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-plus"></i>
+                    <a href="">Add To Queue</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-bars"></i>
+                    <a href="">Add To Favourites</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <a href=""><span></span>Get Info</a>
+                  </div>
+
+                </div>
+                <p class="time">4:44</p>
+              </div>
+
+            </div>
+            <div class="latest-release-card">
+              <div class="song-name-and-img-container">
+                <div class="latest-release-img-container">
+                  <label for="play-btn-checkbox2"><i class="fas latest-release-play-btn fa-play play-2"></i><i
+                      class="latest-release-pause-btn fas fa-pause pause-2"></i></label>
+                </div>
+                <div>
+                  <p class="song-name">Moh Moh Ke Dhagge</p>
+                  <p class="date">May 23, 2017</p>
+                </div>
+              </div>
+
+              <div class="latest-release-dropdown-container">
+                <label for="latest-release-checkbox2"><i class="fa-solid fa-arrow-down-wide-short"></i></label>
+                <input type="checkbox" id="latest-release-checkbox2">
+                <div class="latest-release-dropdown">
+
+                  <div class="links-container">
+                    <i class="fas fa-play"></i>
+                    <a href="">Play Now</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-plus"></i>
+                    <a href="">Add To Queue</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-bars"></i>
+                    <a href="">Add To Favourites</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <a href=""><span></span>Get Info</a>
+                  </div>
+
+                </div>
+                <p class="time">4:44</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="latest-release-cards-container">
+            <div class="latest-release-card">
+              <div class="song-name-and-img-container">
+                <div class="latest-release-img-container">
+                  <label for="play-btn-checkbox3"><i class="fas latest-release-play-btn fa-play play-3"></i><i
+                      class="latest-release-pause-btn fas fa-pause pause-3"></i></label>
+                </div>
+                <div>
+                  <p class="song-name">Agar Tum Saath Ho</p>
+                  <p class="date">February 09, 2018</p>
+                </div>
+              </div>
+
+              <div class="latest-release-dropdown-container">
+                <label for="latest-release-checkbox3"><i class="fa-solid fa-arrow-down-wide-short"></i></label>
+                <input type="checkbox" id="latest-release-checkbox3">
+                <div class="latest-release-dropdown">
+
+                  <div class="links-container">
+                    <i class="fas fa-play"></i>
+                    <a href="">Play Now</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-plus"></i>
+                    <a href="">Add To Queue</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-bars"></i>
+                    <a href="">Add To Favourites</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <a href=""><span></span>Get Info</a>
+                  </div>
+
+                </div>
+                <p class="time">4:44</p>
+              </div>
+
+            </div>
+            <div class="latest-release-card">
+              <div class="song-name-and-img-container">
+                <div class="latest-release-img-container">
+                  <label for="play-btn-checkbox4"><i class="fas latest-release-play-btn fa-play play-4"></i><i
+                      class="latest-release-pause-btn fas fa-pause pause-4"></i></label>
+                </div>
+                <div>
+                  <p class="song-name">Kushi jab Bhi Teri</p>
+                  <p class="date">August 23, 2021</p>
+                </div>
+              </div>
+
+              <div class="latest-release-dropdown-container">
+                <label for="latest-release-checkbox4"><i class="fa-solid fa-arrow-down-wide-short"></i></label>
+                <input type="checkbox" id="latest-release-checkbox4">
+                <div class="latest-release-dropdown">
+
+                  <div class="links-container">
+                    <i class="fas fa-play"></i>
+                    <a href="">Play Now</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-plus"></i>
+                    <a href="">Add To Queue</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-bars"></i>
+                    <a href="">Add To Favourites</a>
+                  </div>
+
+                  <hr>
+
+                  <div class="links-container">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <a href=""><span></span>Get Info</a>
+                  </div>
+                </div>
+                <p class="time">4:44</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Latest release ends here -->
+
+
+        <!-- General Container Start Here -->
+
+        <div class="general-container">
+          <div class="general-img-container">
+            <p>Party</p>
+          </div>
+
+          <div class="general-img-container general-img-2">
+            <p>Sad Mood</p>
+          </div>
+
+          <div class="general-img-container general-img-3">
+            <p>Road Trip</p>
+          </div>
+        </div>
+
+        <!-- General Container Ends Here -->
+
+        <!-- Station Section Starts Here -->
+        <div class="stations-container">
+          <div class="stations-logo-container">
+            <div class="stations-logo-img-container">
+            </div>
+          </div>
+
+          <div class="stations-img-container">
+            <div class="stations-img">
+              <div class="img-1">
+              </div>
+            </div>
+            <p class="stations-para">Love</p>
+          </div>
+
+          <div class="stations-img-container">
+            <div class="stations-img">
+              <div class="img-1 img-2">
+              </div>
+            </div>
+            <p class="stations-para">Retro</p>
+          </div>
+
+          <div class="stations-img-container">
+            <div class="stations-img">
+              <div class="img-1 img-3">
+              </div>
+            </div>
+            <p class="stations-para">Chill</p>
+          </div>
+
+          <div class="stations-img-container">
+            <div class="stations-img">
+              <div class="img-1 img-4">
+              </div>
+            </div>
+            <p class="stations-para">Workout</p>
+          </div>
+
+          <div class="stations-img-container">
+            <div class="stations-img">
+              <div class="img-1 img-5">
+              </div>
+            </div>
+            <p class="stations-para">Rock</p>
+          </div>
+
+          <div class="stations-img-container">
+            <div class="stations-img">
+              <div class="img-1 img-6">
+              </div>
+            </div>
+            <p class="stations-para">Pop</p>
+          </div>
+        </div>
+        <!-- Station Section Ends Here -->
+
+
+        <!-- Latest part section Start Here -->
+        <div class="latest-section-container">
+          <div class="latest-section-header">
+            <p>Latest Bengali Hits</p>
+          </div>
+
+          <div class="latest-section-content">
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\ami-banglai gan gai.jpg" />
+              <p>Ami Banglai gan Gai</p>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\Jawl-Phoring-2-Lyrics-by-Anupam-Roy.jpg" />
+              <p>Jol-Phoring 2.0</p>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\Beche-thakar-Gan.jpg" />
+              <p>Beche Thakar Gan</p>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\bulbuli.jpg" />
+              <p>Bulbuli</p>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\Moner Manush Lyrics.jpg" />
+              <p>Moner Manus</p>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\bosontoesegeche.jpg" />
+              <p>Bosonto Ese-geche</p>
+              <p>AUG 11, 2017</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-section-container">
+          <div class="latest-section-header">
+            <p>Latest Hindi</p>
+          </div>
+
+          <div class="latest-section-content">
+            <div class="latest-section-card-container">
+              <img
+                src="Asset\images\Songs\dil-main-ho-tum.jpg" />
+              <p>Dil Main Ho Tum</p>
+              <p>Feb 14, 2020</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\Dil-ko-karrar aya.jpg" />
+              <p>Dil Ko Karar Aya</p>
+              <p>Nov 23, 2021</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\mast-najrose.jpg" />
+              <p>Mast Nazron Se</p>
+              <p>Apr 15, 2022</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\Hawaiyan.jpg" />
+              <p>Hawayein</p>
+              <p>June 09, 2018</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\moh-moh-ke dhagge.jpg" />
+              <p>Moh Moh Ke Dhaage</p>
+              <p>Aug 19, 2017</p>
+            </div>
+            <div class="latest-section-card-container">
+              <img src="Asset\images\Songs\kavi-yadomai.jpg" />
+              <p>Kabhi Yadon main</p>
+              <p>May 11, 2021</p>
+            </div>
+          </div>
+        </div>
+        <!-- Latest part section End Here -->
+
+      </main>
+      <!-- main content Ends here -->
+
+      <!-- Queue Section Recreate for positioning with name of Queue-2 Starts Here -->
+      <div id="queue-2" class="queue-container">
+        <div class="queue-header">
+          <p>Queue</p>
+          <div class="queue-btn-container">
+
+            <!-- here label is acting as a button for dropdown effect -->
+            <label for="mycheckbox2">Queue <span><i class="fas fa-angle-down"></i></span></label>
+            <input type="checkbox" id="mycheckbox2">
+            <div class="queue-btn-dropdown">
+              <a href="">Playlists</a>
+              <hr>
+              <a href="">Favourite Songs</a>
+            </div>
+          </div>
+        </div>
+        <div class="queue-elements-container">
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">01</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\jabo-na-jabo-na-fire-lyrics.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Jabo Na Fire</p>
+                <p class="queue-artist-name">Arijit Singh</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <i class="fas currently-on-song fa-stream"></i>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\tamasha-agar-tum-1517133191.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Agar Tum Saath Ho</p>
+                <p class="queue-artist-name">Alka Yagnik</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">03</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\moh-moh-ke dhagge.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Moh Moh Ke Dhagge</p>
+                <p class="queue-artist-name">Monali Thakur</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">04</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\khushi-jab-bhi-teri-jubin-nautiyal.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Kushi jab Bhi Teri</p>
+                <p class="queue-artist-name">Jubin Nautial</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">05</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\ami-banglai gan gai.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Ami Banglai gan Gai</p>
+                <p class="queue-artist-name">X Nandita</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">06</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\Jawl-Phoring-2-Lyrics-by-Anupam-Roy.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Jol-Phoring 2.0</p>
+                <p class="queue-artist-name">Anupam Roy</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">07</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\kavi-yadomai.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Kabhi Yadon main</p>
+                <p class="queue-artist-name">Palak Muccal</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <i class="fas currently-on-song fa-stream"></i>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\Hawaiyan.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Hawayein</p>
+                <p class="queue-artist-name">Arijit Singh</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">09</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\dil-main-ho-tum.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Dil Main Ho Tum</p>
+                <p class="queue-artist-name">Armaan Mallik</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">10</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\Dil-ko-karrar aya.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Dil Ko Karar Aya</p>
+                <p class="queue-artist-name">Neha Kakkar</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">11</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\bulbuli.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Bulbuli</p>
+                <p class="queue-artist-name">Cock Studio Bangla</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+          <div class="queue-element">
+            <div class="song-image-container">
+              <p class="queue-number">12</p>
+              <div class="image-container">
+                <img class="queue-song-img" src="Asset\images\Songs\mast-najrose.jpg" />
+                <i class="fas play-btn fa-play"></i>
+              </div>
+              <div class="song-and-artist-container">
+                <p class="queue-song-name">Mast Nazron Se</p>
+                <p class="queue-artist-name">Jubin Nautial</p>
+              </div>
+            </div>
+
+            <i class="far wishlist-icon fa-heart"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Queue Section Recreate for positioning with name of Queue-2 Ends Here -->
+    </div>
+
+
+    <!-- footer/music section start here -->
+    <footer>
+      <div class="audio-player-container">
+        <div class="current-song-container">
+          <img src="Asset\images\Songs\khushi-jab-bhi-teri-jubin-nautiyal.jpg" />
+
+          <div>
+            <p>Kushi jab Bhi Teri</p>
+            <p>Jubin Nautial</p>
+          </div>
+
+          <div class="current-song-button-container">
+            <button><i class="far fa-heart"></i></button>
+            <button><i class="fas fa-ban"></i></button>
+          </div>
+
+        </div>
+
+        <div class="current-song-controls-container">
+          <div class="controls-button-container">
+            <button><i class="fas fa-random"></i></button>
+            <button><i class="fas fa-step-backward"></i></button>
+            <button><i
+                style="text-align:center;font-size:0.5rem;width:1.2rem;line-height:1.2rem;border:1px solid #B3B2B2;border-radius:50%;color: white;"
+                class="fas fa-pause"></i></button>
+            <button><i class="fas fa-step-forward"></i></button>
+            <button><i class="fas fa-redo"></i></button>
+          </div>
+          <div class="progress-time-container">
+            <p>1:39</p>
+            <div class="progress-container">
+              <div class="progress">
+              </div>
+              <div class="circle">
+              </div>
+            </div>
+            <p>4:44</p>
+          </div>
+        </div>
+
+        <div class="current-song-more-options-container">
+          <button><i class="fas fa-bars"></i></button>
+          <button><i class="fas fa-tv"></i></button>
+          <button><i class="fas fa-volume-down"></i></button>
+          <div class="sound-progress-container">
+            <div class="sound-progress">
+            </div>
+            <div class="sound-circle">
+            </div>
+          </div>
+          <button><i class="fas fa-expand-alt"></i></button>
+        </div>
+      </div>
+    </footer>
+    <!-- footer/music section end here -->
+  </div>
+</body>
+
+</html>
